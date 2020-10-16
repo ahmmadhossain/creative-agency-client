@@ -12,7 +12,7 @@ const ServicesList = () => {
   const [orderServices, setOrderServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allorders", {
+    fetch("https://my-creative-agency.herokuapp.com/allorders", {
       method: "POST",
       body: JSON.stringify({ email: "" }),
       headers: {
@@ -29,7 +29,7 @@ const ServicesList = () => {
 
   const changeStatus = (id, state) => {
     setLoading(true);
-    fetch("http://localhost:5000/changeorderstatus", {
+    fetch("https://my-creative-agency.herokuapp.com/changeorderstatus", {
       method: "PATCH",
       body: JSON.stringify({ id: id, status: state }),
       headers: {

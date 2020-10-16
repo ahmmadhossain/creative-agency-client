@@ -12,7 +12,7 @@ const AddService = () => {
     formData.append("title", data.title);
     formData.append("description", data.description);
 
-    fetch("http://localhost:5000/addservice", {
+    fetch("https://my-creative-agency.herokuapp.com/addservice", {
       method: "POST",
       body: formData,
     })

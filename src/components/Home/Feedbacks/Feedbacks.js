@@ -10,7 +10,7 @@ const Feedbacks = () => {
   const [clientsFeedbacks, setClientsFeedbacks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allreviews")
+    fetch("https://my-creative-agency.herokuapp.com/allreviews")
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);

@@ -46,7 +46,7 @@ const Login = () => {
   };
 
   const isAdmin = (email) => {
-    return fetch("http://localhost:5000/isAdmin", {
+    return fetch("https://my-creative-agency.herokuapp.com/isAdmin", {
       method: "POST",
       body: JSON.stringify({ email }),
       headers: {
