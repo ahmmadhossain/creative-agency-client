@@ -1,6 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect,  useState }  from "react";
 import { Container, Row } from "react-bootstrap";
 import ServiceDetails from "../ServiceDeatils/ServiceDetails";
 import * as ReactBootstrap from 'react-bootstrap';

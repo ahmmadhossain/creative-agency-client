@@ -1,8 +1,9 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 import { Col, Row } from "react-bootstrap";
 import DashboardHeader from "../Dashboard/DashboardHeader/DashboardHeader";
 import Sidebar from "../Dashboard/Sidebar/Sidebar";
-import { useForm } from "react-hook-form";
+
 
 const MakeAdmin = () => {
   const { register, handleSubmit, reset, errors } = useForm();
@@ -45,10 +46,10 @@ const MakeAdmin = () => {
                   message: "invalid email address",
                 },
               })}
-              placeholder="jon@gmail.com"
+              placeholder="emailId@gmail.com"
               className="form-control w-25 d-inline"
             />
-            <input type="submit" className="btn btn-success d-inline" />
+            <input type="submit" className="btn btn-success d-inline mr-5" />
             <br />
             {errors.email && (
               <span className="text-danger">* Invalid Email address</span>

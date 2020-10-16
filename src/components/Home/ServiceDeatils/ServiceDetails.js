@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Col, Image } from "react-bootstrap";
+
 
 import "./ServiceDetails.css";
 

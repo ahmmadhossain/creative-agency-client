@@ -1,6 +1,4 @@
-import React from "react";
-import { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import ClientFeedback from "../ClientFeedback/ClientFeedback";
 import * as ReactBootstrap from 'react-bootstrap';

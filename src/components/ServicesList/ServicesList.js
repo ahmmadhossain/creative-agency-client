@@ -1,6 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row, Table } from "react-bootstrap";
 import DashboardHeader from "../Dashboard/DashboardHeader/DashboardHeader";
 import Sidebar from "../Dashboard/Sidebar/Sidebar";

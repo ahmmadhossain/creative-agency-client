@@ -1,5 +1,4 @@
-import React from "react";
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import { UserContext } from "../../App";
